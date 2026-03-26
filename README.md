@@ -42,9 +42,9 @@ node --version   # should print v18.x.x or higher
 
 This is the PDF rendering engine the app uses. It must be installed separately on your system.
 
-| Platform | Command |
-|----------|---------|
-| **macOS** | `brew install wkhtmltopdf` |
+| Platform | Command / Method |
+|----------|-----------------|
+| **macOS** | `brew install --cask wkhtmltopdf` &nbsp;·&nbsp; or download the `.pkg` from [wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html) |
 | **Ubuntu / Debian** | `sudo apt-get install wkhtmltopdf` |
 | **Fedora / RHEL** | `sudo dnf install wkhtmltopdf` |
 | **Windows** | Download installer from [wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html) |
